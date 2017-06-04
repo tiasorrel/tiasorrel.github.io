@@ -7,12 +7,13 @@
 /*----------------------------------MEDIA QUERIES----------------------------------*/
 /*xs*/
 @media screen and (max-width: 767px) {
-    .about-text{font-size: 20px;
-    			line-height: 30px;
+    .about-text{font-size: 22px;
+    			line-height: 32px;
     			margin-right:3%;
     			margin-left: 3%}
     body {
     	padding-top:80px;
+      font-size: 16px;
     }
     
     .poster{
@@ -36,12 +37,13 @@
 
 /*small*/
 @media screen and (min-width: 768px) {
-    .about-text{font-size: 28px;
-    			line-height: 40px;
+    .about-text{font-size: 30px;
+    			line-height: 44px;
     			margin-right:8%;}
 
     body {
     	padding-top:49px;
+      font-size:15px;
     }
      .poster {  background: white;
                 padding-top: 5%;
@@ -74,6 +76,9 @@
 	.about-text{font-size: 36px;
     			line-height: 54px;
     			}
+  body {
+    font-size:14px;
+  }
 }
 
 /*----------------------------------END MEDIA QUERIES----------------------------------*/
