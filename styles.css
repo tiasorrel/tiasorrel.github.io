@@ -33,6 +33,9 @@
     .fix-space-xs {
     margin-left:4px;
     }
+    .more-space-bottom-xs {
+      margin-bottom: 20px;
+    }
 }
 
 /*small*/
@@ -68,6 +71,9 @@
 
     .fix-space-xs {
     margin-right:0px;
+    }
+    .more-space-bottom-xs {
+      margin-bottom: 0px;
     }
 }
 

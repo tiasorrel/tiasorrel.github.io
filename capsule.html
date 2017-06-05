@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--INPUT CONTENT-->
+    <meta name="description" content="Tia Thomson's portfolio site.">
+    <meta name="author" content="Tia Thomson">
+
+    <!--FAVICON-->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+
+  	<!--ADD TITLE-->
+  	<title>Capsule Wardrobe &#124; Tia Thomson</title>
+
+  	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  	<!--CHANGE HREF ACCORDINGLY-->
+  	<link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+
+<!--NAVIGATION-->
+<div class="navbar navbar-fixed-top">
+  
+  <!-- MAIN NAV -->
+  <div class="container-fluid"> 
+    <div class="row white-bg hidden-xs">
+      <a class="title hvr-bounce-to-right text-center" href="index.html">tia thomson<span style="color:var(--mint)">*</span></a>
+      <span>
+        <a class="nav-link" href="resume.pdf" target="_blank">&nbsp;R&eacute;sum&eacute;&nbsp;</a>
+        <a class="nav-link" href="about.html">&nbsp;About&nbsp;</a>
+      </span>
+    </div>
+  </div>
+
+
+  <!-- MOBILE NAV -->
+  <div class="container-fluid hidden-sm hidden-md hidden-lg">
+    <div class="row">
+      <div class="mobile-title text-center">
+        <a class="mobile-a" href="index.html">tia thomson<span style="color:var(--mint)">*</span></a>
+      </div>
+    </div>
+
+    <div class="row mobile-link-bar text-center">
+      <a class="mobile-link" href="resume.pdf" target="_blank">&nbsp;R&eacute;sum&eacute;&nbsp;</a>
+      <a class="mobile-link" href="about.html">&nbsp;About&nbsp;</a>
+    </div>
+  </div>
+
+</div>
+
+<!--NAV END-->
+
+
+<!--...............................................BODY CONTENT.......................................................-->
+<div class="container-fluid">
+  
+  <div class="row white-bg">
+    <div class="col-md-4 col-sm-offset-1 col-sm-8 margin-top margin-bottom">
+        <h1>Capsule Wardrobe</h1>
+        <p>This was a coding project I created in my Fall 2016 Programming Basics class. Using a virtual 'capsule wardrobe,' the app creates outfit combinations based on the weather. I developed this application using Processing and connected it to the Yahoo Weather API for real-time weather updates.</p>
+    </div>
+    <img class="col-md-offset-1 col-md-6 img-responsive" style="padding-right:0; padding-left:0" src="imgs/capsule/main-img.png"/>
+  </div>
+
+
+  <div class="row margin-top">
+    <div class="col-sm-5 col-sm-offset-1 padding-right"><h3>Overview</h3></div>
+  </div>
+
+  <div class="row margin-bottom">
+      <div class="col-sm-5 col-sm-offset-1 padding-right">
+      <p>Capsule wardrobes’ are a relatively new fashion lifestyle that many people are starting to adopt because it helps to save time and money in regards to shopping. They consist of a limited number of clothing items (37 is a popular number) that mix and match well with each other. Although there are a lot of benefits to using capsule wardrobes, they present high barriers to entry because it becomes difficult to plan exactly what to buy. This project aimed to solve that problem by displaying virtual wardrobe filled with inexpensive, simple pieces that are easy to find (such as a white tee or black leggings) and presenting outfit suggestions each day based on the weather.</p>
+      </div>
+
+      <div class="col-sm-5 padding-right">
+      <p>The main user group is fashion-conscious young women, probably with busy schedules and many other priorities to tend to. The objectives of this app were to explain the concept of a capsule wardrobe, lower the barriers of entry to adopting this new kind of fashion lifestyle, make shopping for a capsule wardrobe easier, and make deciding what to wear easier.</p></div>
+  </div>
+
+  <div class="row row-centered margin-bottom">
+    <div class="col-centered col-sm-10"><img class="img-responsive more-space-bottom-xs" src="imgs/capsule/overview.gif"></div>
+  </div>
+
+   <div class="row margin-top margin-bottom more-space-bottom-xs">
+    <img class="img-responsive center-img" src="imgs/squiggle.svg">
+  </div>
+
+  <div class="row margin-top margin-bottom">
+    <div class="col-md-4 col-sm-offset-1 col-sm-10 margin-bottom">
+      <p><b>Starting Page</b><br>To begin, the user selects her city from a map of the United States. For this version of the app, I included 12 different cities across the United States.</p>
+    </div>
+    <div class="col-md-6 col-md-offset-0 col-sm-offset-1 col-sm-10">
+      <img class="img-responsive more-space-bottom-xs" src="imgs/capsule/1.png">
+    </div>
+  </div>
+
+
+  <div class="row margin-top margin-bottom">
+    <div class="col-md-4  col-sm-offset-1 col-sm-10 margin-bottom">
+      <p><b>Outfit of the Day</b><br>She will then be shown the #OOTD (outfit of the day) tab, where three outfit suggestions are displayed. They are based on the current weather in the chosen city, which is also printed at the top of the screen.</p>
+    </div>
+    <div class="col-md-6 col-md-offset-0 col-sm-offset-1 col-sm-10">
+      <img class="img-responsive more-space-bottom-xs" src="imgs/capsule/2.png">
+    </div>
+  </div>
+
+  <div class="row margin-top margin-bottom">
+    <div class="col-md-4  col-sm-offset-1 col-sm-10 margin-bottom">
+      <p><b>Wardrobe</b><br>The Wardrobe tab displays all of the clothing items and shoes used to create outfit combinations for the Outfit of the Day. The user can click through all of the categories and browse through all of the items. To enlarge the picture of the item, the user can click on the thumbnails.</p>
+    </div>
+    <div class="col-md-6 col-md-offset-0 col-sm-offset-1 col-sm-10">
+      <img class="img-responsive more-space-bottom-xs" src="imgs/capsule/3.png">
+    </div>
+  </div>
+
+  <div class="row margin-top margin-bottom">
+    <div class="col-md-4 col-sm-offset-1 col-sm-10">
+      <p><b>Shop Similar Items</b><br>If she wants to purchase the item being displayed, she can click on the shopping cart button in the bottom left. This will open a link to an online store selling the item being displayed (or something similar to it).</p>
+    </div>
+  </div>
+
+  <div class="row margin-bottom">
+    <div style="margin-top:10px;" class="col-md-5 col-sm-offset-1 col-sm-10">
+      <img class="img-responsive more-space-bottom-xs" src="imgs/capsule/4.png">
+    </div>
+    <div style="margin-top:10px;" class="col-md-5 col-md-offset-0 col-sm-offset-1 col-sm-10">
+      <img class="img-responsive more-space-bottom-xs" src="imgs/capsule/5.png">
+    </div>
+  </div>
+
+  <div class="row margin-top margin-bottom-thick">
+    <div class="col-md-4  col-sm-offset-1 col-sm-10 margin-bottom">
+      <p><b>Information</b><br>In the ‘What is a capsule?' tab, the user can click through a few informational slides that explain how capsule wardrobes work, why they are beneficial, and how to adopt this lifestyle. 
+</p>
+    </div>
+    <div class="col-md-6 col-md-offset-0 col-sm-offset-1 col-sm-10">
+      <img class="img-responsive more-space-bottom-xs" src="imgs/capsule/6.png">
+    </div>
+  </div>
+
+
+<div class="row margin-bottom text-center">
+  <a href="meetinghabits.html" class="pagination hvr-icon-back">Previous</a>
+  <span style="color:var(--red);">&nbsp;&vert;&nbsp;</span>
+  <a href="matebros.html" class="pagination hvr-icon-forward">Next</a>
+</div>
+
+</div>
+
+
+<!--...............................................BODY CONTENT ENDS...................................................-->
+
+<!--FOOTER-->
+<div class="container-fluid">
+  <div class="row footer text-center">
+    <div class="swing">
+      <span><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;</span>
+      <span>Designed and built by Tia Thomson &copy;2017</span>
+      <span>&nbsp;<i class="fa fa-heart-o" aria-hidden="true"></i></span>
+    </div>
+  </div>
+</div>
+
+
+<!--JS AT END -->
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
