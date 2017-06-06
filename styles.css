@@ -34,6 +34,9 @@
     .more-space-bottom-xs {
       margin-bottom: 20px;
     }
+      .titles-margin-top {
+  margin-top:0;
+  }
 }
 
 /*small*/
@@ -74,6 +77,9 @@
     .more-space-bottom-xs {
       margin-bottom: 0px;
     }
+      .titles-margin-top {
+  margin-top:0;
+  }
 }
 
 /*med*/
@@ -83,6 +89,9 @@
     			}
   body {
     font-size:14px;
+  }
+  .titles-margin-top {
+  margin-top:0;
   }
 }
 
@@ -94,6 +103,9 @@
   body {
     font-size:15px;
   }
+    .titles-margin-top {
+  margin-top:0;
+  }
 }
 
 /*xl*/
@@ -103,6 +115,9 @@
           }
   body {
     font-size:18px;
+  }
+    .titles-margin-top {
+  margin-top:10%;
   }
 
 }
