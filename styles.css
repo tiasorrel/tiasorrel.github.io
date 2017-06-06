@@ -14,6 +14,7 @@
     body {
     	padding-top:80px;
       font-size: 16px;
+      margin:0;
     }
     
     .poster{
@@ -36,6 +37,10 @@
     .more-space-bottom-xs {
       margin-bottom: 20px;
     }
+      .span-width {
+  margin-left: 0;
+  margin-right: 0;
+  }
 }
 
 /*small*/
@@ -47,6 +52,7 @@
     body {
     	padding-top:49px;
       font-size:15px;
+      margin:0;
     }
      .poster {  background: white;
                 padding-top: 5%;
@@ -60,6 +66,10 @@
                 margin-top: 4%;
                 margin-bottom: 4%
     }
+      .span-width {
+  margin-left: 0;
+  margin-right: 0;
+  }
 
     #broadside {
       margin-top:-150px;
@@ -75,6 +85,10 @@
     .more-space-bottom-xs {
       margin-bottom: 0px;
     }
+      .span-width {
+  margin-left: 0;
+  margin-right: 0;
+  }
 }
 
 /*med*/
@@ -84,6 +98,11 @@
     			}
   body {
     font-size:14px;
+    margin:0;
+  }
+    .span-width {
+  margin-left: 0;
+  margin-right: 0;
   }
 }
 
@@ -93,7 +112,12 @@
           line-height: 54px;
           }
   body {
-    font-size:14px;
+    font-size:15px;
+    margin:0;
+  }
+  .span-width {
+  margin-left: 0;
+  margin-right: 0;
   }
 }
 
@@ -104,9 +128,14 @@
           }
   body {
     font-size:18px;
+    margin-left: 200px;
+    margin-right:200px;
   }
-  .body-content {margin-left: 300px;
-                  margin-right:300px;}
+  .span-width {
+  margin-left: -200px;
+  margin-right: -200px;
+  }
+
 }
 
 
