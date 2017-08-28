@@ -285,6 +285,10 @@ a.red-text:hover {
   transition:all 0.3s ease;
 }
 
+.display-inline {
+  display: inline;
+}
+
 /*----------------------------------FOOTER----------------------------------*/
 .pagination, .pagination:visited, .pagination:active {
   text-decoration: none;
