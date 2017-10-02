@@ -280,14 +280,241 @@ a.red-text:hover {
   border-bottom: 3px solid #F66462;
 }
 
-.home-img:hover {
-  opacity: 0.5;
-  transition:all 0.3s ease;
-}
-
 .display-inline {
   display: inline;
 }
+
+
+#home-trailtag {
+  background-image: url("imgs/home/patterns/trailtag.png");
+  height:479px;
+}
+
+#home-livcollege {
+  background-image: url("imgs/home/patterns/livcollege.png");
+  height:479px;
+}
+
+#home-mh {
+  background-image: url("imgs/home/patterns/meetinghabits.png");
+  height:479px;
+}
+
+#home-language {
+  background-image: url("imgs/home/patterns/language.png");
+  height: 479px;
+}
+
+.lock-to-bottom {
+    position: relative;
+    bottom: -44px;
+    left:13vw;
+}
+
+.link-home-trailtag {
+  text-align: right;
+  position:relative;
+  right:14vw;
+  bottom:160px;
+  font-size: 30px;
+}
+
+.link-home-honest {
+  bottom:120px;
+  left:2vw;
+  font-size: 30px;
+  position: absolute;
+}
+
+
+.link-home-mh {
+  bottom:120px;
+  right:3vw;
+  font-size: 30px;
+  position: absolute;
+}
+
+.link-home-ruggles {
+  bottom:87px;
+  left:2vw;
+  font-size: 30px;
+  position: absolute;
+}
+
+.black-block {
+  padding: 10px 120px 39px 120px;
+  background-color: #212121;
+  color:white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.black-block-sm {
+  padding: 10px 20px 39px 20px;
+  background-color: #212121;
+  color:white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.black-block-md {
+  padding: 10px 40px 39px 40px;
+  background-color: #212121;
+  color:white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.black-block-sm-red {
+  padding: 10px 20px 39px 20px;
+  background-color: #212121;
+  color:white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.black-block-sm-red:hover{
+  box-shadow:
+      1px 1px #F66462,
+      2px 2px #F66462,
+      3px 3px #F66462,
+      4px 4px #F66462;
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+    color:white;
+}
+
+.black-block-sm:hover {
+  box-shadow:
+      1px 1px #F8E71C,
+      2px 2px #F8E71C,
+      3px 3px #F8E71C,
+      4px 4px #F8E71C;
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+    color:white;
+}
+
+.black-block:hover{
+    box-shadow:
+      1px 1px #F66462,
+      2px 2px #F66462,
+      3px 3px #F66462,
+      4px 4px #F66462;
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+    color:white;
+}
+
+.black-block-md:hover{
+    box-shadow:
+      1px 1px #F66462,
+      2px 2px #F66462,
+      3px 3px #F66462,
+      4px 4px #F66462;
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+    color:white;
+}
+
+.black-block-lg:hover{
+    box-shadow:
+      1px 1px #F66462,
+      2px 2px #F66462,
+      3px 3px #F66462,
+      4px 4px #F66462;
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+    color:white;
+}
+
+.black-block-lg {
+  padding: 10px 100px 39px 100px;
+  background-color: #212121;
+  color:white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.desc-link {
+  position:absolute;
+  right:160px;
+  color:white;
+  font-size:14px;
+  text-decoration: none;
+}
+
+.desc-link-honest {
+  position:absolute;
+  left:120px;
+  color:white;
+  font-size:14px;
+  text-decoration: none;
+}
+
+.desc-link-ruggles {
+  position:absolute;
+  left:135px;
+  color:white;
+  font-size:14px;
+  text-decoration: none;
+}
+
+
+.desc-link-mh {
+  position:absolute;
+  left:68px;
+  color:white;
+  font-size:14px;
+  text-decoration: none;
+}
+
+.desc-link-5d {
+  position:absolute;
+  left:96px;
+  color:white;
+  font-size:14px;
+  text-decoration: none;
+}
+
+.desc-link-lc {
+  position:absolute;
+  right:164px;
+  color:white;
+  font-size:14px;
+  text-decoration: none;
+}
+
+#home-honest {
+  position: relative;
+  left: 12vw;
+  top:2px;
+}
+
+#home-xd {
+  position: relative;
+  left: 20vw;
+  top:41px;
+}
+
+#mockup-mh {
+  position: absolute;
+  left:5%;
+  top:60px;
+}
+
+#mockup-5d {
+  position: absolute;
+  left:5%;
+  top:40px;
+}
+
+#mockup-lc {
+  position: relative;
+  left:0;
+  top:52px;
+}
+
 
 /*----------------------------------FOOTER----------------------------------*/
 .pagination, .pagination:visited, .pagination:active {
@@ -883,6 +1110,5 @@ a.red-text:hover {
         display: none !important;
     }
 }
-
 
 
