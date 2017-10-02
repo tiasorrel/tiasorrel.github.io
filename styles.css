@@ -464,7 +464,8 @@ a.red-text:hover {
 
 .desc-link-ruggles {
   position:absolute;
-  left:135px;
+  left:120px;
+  margin:0 auto;
   color:white;
   font-size:14px;
   text-decoration: none;
