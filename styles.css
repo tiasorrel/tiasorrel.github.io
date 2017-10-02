@@ -305,6 +305,16 @@ a.red-text:hover {
   height: 479px;
 }
 
+.about-eyes {
+  background-image: url("imgs/about/eyeballs.png");
+  height:400px;
+}
+
+.about-photo {
+  background-color:#FFD700;
+  height:400px;
+}
+
 .lock-to-bottom {
     position: relative;
     bottom: -44px;
