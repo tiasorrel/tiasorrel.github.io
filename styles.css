@@ -315,53 +315,75 @@ a.red-text:hover {
   height:400px;
 }
 
-.lock-to-bottom {
+.trailtag-mockup {
     position: relative;
-    bottom: -44px;
-    left:13vw;
+    display: block;
+    margin: 0 auto;
+    right:220px;
+    top:44px;
 }
 
-.link-home-trailtag {
-  text-align: right;
+.link-home-banner {
   position:relative;
-  right:14vw;
   bottom:160px;
   font-size: 30px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  left:120px;
+}
+
+.desc-link{
+  position:relative;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color:white;
 }
 
 .link-home-honest {
-  bottom:120px;
-  left:2vw;
   font-size: 30px;
   position: absolute;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  bottom: 120px;
+  left: 4vw;
 }
 
 
-.link-home-mh {
-  bottom:120px;
-  right:3vw;
+.link-home-right {
   font-size: 30px;
-  position: absolute;
+  position: relative;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  left:60px;
+  top:300px;
 }
 
 .link-home-ruggles {
-  bottom:87px;
-  left:2vw;
   font-size: 30px;
   position: absolute;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  bottom: 80px;
+  left: 6vw;
 }
 
 .black-block {
-  padding: 10px 120px 39px 120px;
+  padding: 10px 120px 37px 120px;
   background-color: #212121;
-  color:white;
+  color: white;
   text-decoration: none;
   font-weight: 700;
   transition: .3s ease;
 }
 
 .black-block-sm {
-  padding: 10px 20px 39px 20px;
+  padding: 10px 20px 37px 20px;
   background-color: #212121;
   color:white;
   text-decoration: none;
@@ -370,7 +392,7 @@ a.red-text:hover {
 }
 
 .black-block-md {
-  padding: 10px 40px 39px 40px;
+  padding: 10px 40px 37px 40px;
   background-color: #212121;
   color:white;
   text-decoration: none;
@@ -379,7 +401,7 @@ a.red-text:hover {
 }
 
 .black-block-sm-red {
-  padding: 10px 20px 39px 20px;
+  padding: 10px 20px 37px 20px;
   background-color: #212121;
   color:white;
   text-decoration: none;
@@ -443,7 +465,7 @@ a.red-text:hover {
 }
 
 .black-block-lg {
-  padding: 10px 100px 39px 100px;
+  padding: 10px 100px 37px 100px;
   background-color: #212121;
   color:white;
   text-decoration: none;
@@ -451,73 +473,30 @@ a.red-text:hover {
   transition: .3s ease;
 }
 
-.desc-link {
-  position:absolute;
-  right:160px;
-  color:white;
-  font-size:14px;
-  text-decoration: none;
-}
 
-.desc-link-honest {
-  position:absolute;
-  left:120px;
-  color:white;
-  font-size:14px;
-  text-decoration: none;
-}
-
-.desc-link-ruggles {
-  position:absolute;
-  left:120px;
-  margin:0 auto;
-  color:white;
-  font-size:14px;
-  text-decoration: none;
-}
-
-
-.desc-link-mh {
-  position:absolute;
-  left:68px;
-  color:white;
-  font-size:14px;
-  text-decoration: none;
-}
-
-.desc-link-5d {
-  position:absolute;
-  left:96px;
-  color:white;
-  font-size:14px;
-  text-decoration: none;
-}
-
-.desc-link-lc {
-  position:absolute;
-  right:164px;
-  color:white;
-  font-size:14px;
-  text-decoration: none;
-}
-
-#home-honest {
+#mockup-honest {
   position: relative;
-  left: 12vw;
+  margin: 0 auto;
+  display: block;
   top:2px;
+  left:8vw;
 }
 
 #home-xd {
+  width:391px;
   position: relative;
-  left: 20vw;
+  margin: 0 auto;
+  display: block;
   top:41px;
-  width:282px;
+  left:2vw;
 }
 
 #mockup-mh {
   position: absolute;
-  left:5%;
   top:60px;
+  margin: 0 auto;
+  display: block;
+  left:5vw;
 }
 
 #mockup-5d {
@@ -528,7 +507,9 @@ a.red-text:hover {
 
 #mockup-lc {
   position: relative;
-  left:0;
+  display: block;
+  margin: 0 auto;
+  right:17vw;
   top:52px;
 }
 
@@ -551,6 +532,12 @@ a.red-text:hover {
 	color:white;
 	font-weight: 400;
 	font-size: 90%;
+}
+
+.wrapper {
+  overflow: hidden;
+  margin-left:-15px;
+  margin-right:-15px;
 }
 
 /*----------------------------------END FOOTER-------------------------------------*/
