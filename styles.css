@@ -333,6 +333,16 @@ a.red-text:hover {
   left:120px;
 }
 
+.link-home-banner-2 {
+  position:relative;
+  bottom:160px;
+  font-size: 30px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  left:200px;
+}
+
 .desc-link{
   position:relative;
   font-size: 14px;
@@ -347,9 +357,8 @@ a.red-text:hover {
   position: absolute;
   text-align: center;
   display: block;
-  margin: 0 auto;
   bottom: 120px;
-  left: 4vw;
+  left:8vw;
 }
 
 
@@ -488,7 +497,7 @@ a.red-text:hover {
   margin: 0 auto;
   display: block;
   top:41px;
-  left:2vw;
+  left:5vw;
 }
 
 #mockup-mh {
@@ -501,15 +510,16 @@ a.red-text:hover {
 
 #mockup-5d {
   position: absolute;
-  left:5%;
-  top:40px;
+  left:4vw;
+  top:100px;
+  width:550px;
 }
 
 #mockup-lc {
   position: relative;
   display: block;
   margin: 0 auto;
-  right:17vw;
+  right:13vw;
   top:52px;
 }
 
