@@ -37,6 +37,14 @@
     .titles-margin-top {
       margin-top:0;
   }
+    .footer {
+    background-color: #212121;
+    height:60px;
+    padding-top:20px;
+    color:white;
+    font-weight: 400;
+    font-size: 3.3vw;
+    }
 }
 
 /*small*/
@@ -62,15 +70,6 @@
                 margin-bottom: 4%
     }
 
-
-    #broadside {
-      margin-top:-150px;
-    }
-
-    #emulate {
-      margin-top:-60px;
-    }
-
     .fix-space-xs {
     margin-right:0px;
     }
@@ -80,6 +79,15 @@
     .titles-margin-top {
     margin-top:0;
   }
+
+    .footer {
+    background-color: #212121;
+    height:60px;
+    padding-top:24px;
+    color:white;
+    font-weight: 400;
+    font-size: 14px;
+    }
 }
 
 /*med*/
@@ -121,6 +129,7 @@
   }
 
 }
+
 
 
 /*----------------------------------END MEDIA QUERIES----------------------------------*/
@@ -523,6 +532,12 @@ a.red-text:hover {
   top:52px;
 }
 
+.wrapper {
+  overflow: hidden;
+  margin-left:-15px;
+  margin-right:-15px;
+}
+
 /*----------------------------------FOOTER----------------------------------*/
 .pagination, .pagination:visited, .pagination:active {
   text-decoration: none;
@@ -535,20 +550,7 @@ a.red-text:hover {
   color:#212121;
 }
 
-.footer {
-	background-color: #212121;
-	height:60px;
-	padding-top:20px;
-	color:white;
-	font-weight: 400;
-	font-size: 90%;
-}
 
-.wrapper {
-  overflow: hidden;
-  margin-left:-15px;
-  margin-right:-15px;
-}
 
 /*----------------------------------END FOOTER-------------------------------------*/
 
